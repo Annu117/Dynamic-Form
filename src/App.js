@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import EventRegistrationForm from './components/EventRegistration/EventRegistrationForm';
 import JobApplicationForm from './components/JobApplication/JobApplicationForm';
 import SurveyForm from './components/survey/SurveyForm';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -13,9 +14,7 @@ function App() {
       <Navbar />
       <div className="p-4">
         <Routes>
-          {/* <EventRegistrationForm />
-          <JobApplicationForm />
-          <SurveyForm /> */}
+            <Route path="/" element={<Home />} />
             <Route path="/event-registration" element={<EventRegistrationForm />} />
             <Route path="/job-application" element={<JobApplicationForm />} />
             <Route path="/survey" element={<SurveyForm />} />
