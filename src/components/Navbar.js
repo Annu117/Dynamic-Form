@@ -10,6 +10,11 @@ function Navbar() {
         Dynamic Forms
         </div>
         <ul className="flex space-x-6">
+        <li>
+            <Link to="/" className="text-white hover:text-gray-400">
+              Home
+            </Link>
+          </li>
           <li>
             <Link to="/event-registration" className="text-white hover:text-gray-400">
               Event Registration
