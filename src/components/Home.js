@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white p-4 font-sans">
       <div className="max-w-5xl w-full bg-white p-8 rounded-lg">
-        <h1 className="text-3xl font-extrabold text-center text-gray-900 mb-6">Welcome to Form Application</h1>
+        <h1 className="text-3xl font-extrabold text-center text-gray-900 mb-6">Welcome to Dynamic Forms</h1>
         <p className="text-gray-700 text-base mb-8 text-center">
           This application provides various forms for different purposes. Use the navigation bar above to select the form you need. Below are brief descriptions of each form:
         </p>
